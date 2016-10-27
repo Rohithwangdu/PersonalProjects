@@ -1,0 +1,143 @@
+﻿body,div,ul,li,p
+{
+    padding:0;
+    margin:0;
+    background-color:rgb(237,237,237);
+    font-family:Arial, sans-serif;
+    font-size:12px;
+    text-align:center;
+}
+
+body{
+    background-color:rgb(237,237,237);
+    font-family:Arial,sans-serif;
+    font-size:12px;
+    text-align:center;
+}
+.wrapper{
+    width:950px;
+    margin:auto;
+}
+.content{
+    width:100%;
+    background-color:rgb(254,254,254);
+    border: 1px solid rgb(224,224,224);
+    border-radius:5px 5px 5px 5px;
+    float:left;
+    margin-top:8px;
+    margin-bottom:8px;
+    min-height:400px;
+}
+.menu{
+    background-color:rgb(10,110,178);
+    width:100%;
+    margin:0px 0px 0px;
+    padding:0px;
+    height:40px;
+    color:rgb(243,243,243);
+    border-radius:5px 5px 5px 5px;
+}
+.nav_first_item{
+    border-left:0px;
+    border-radius:5px 0px 0px 5px;
+}
+#navitem_s{
+    float:left;
+    border-right:1px solid rgb(10,85,125);
+    border-left:1px solid rgb(67,153,200);
+    height:40px;
+    background-color:rgb(14,79,114);
+}
+.menu ul li{
+    float: left;
+    display:block;
+    list-style:none;
+    border-right:1px solid rgb(10,85,125);
+    border-left:1px solid rgb(67,153,200);
+    background-color:rgb(14,79,114);
+}
+.menu ul li:hover{
+    border-radius:5px 5px 5px 5px;
+    background-color:rgb(10,110,178);
+}
+.menu ul li a{
+    font-size:13px;
+    font-weight:bold;
+    line-height:40px;
+    padding: 8px 20px;
+    color: rgb(255,255,255);
+    text-decoration:none;
+}
+
+.clear{
+    clear:both;
+}
+.footer{
+    height:40px;
+    background-color:rgb(14,79,114);
+    color: rgb(255,255,255);
+    border-radius:5px 5px 5px 5px;
+    align-content:center;
+    align-self:center;
+}
+.footer h6{
+    padding:15px;
+    text-align:center;
+}
+
+.mGrid {
+    width: 100%; 
+    background-color: #fff; 
+    margin: 5px 0 10px 0; 
+    border: solid 1px #525252; 
+    border-collapse:collapse; 
+}
+.mGrid td{
+    padding: 2px; 
+    border: solid 1px #c1c1c1; 
+    color: #717171; 
+}
+/*.gridview-header
+{
+    font-weight: bold;
+    font-size: 10px;
+    padding-bottom: 3px;
+    color:  #666666;
+    padding-top: 3px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+}*/
+.mGrid th{
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #424242; 
+    border-left: solid 1px #525252; 
+    font-size: 15px; 
+    
+}
+.mGrid .alt { 
+    background: #fcfcfc ;
+}
+.mGrid .pgr {
+    //background: #424242 url(grd_pgr.png) repeat-x top; 
+    background: rgb(237,237,237); 
+}
+.mGrid .pgr table { 
+    margin: 5px 0; 
+}
+.mGrid .pgr td { 
+    border-width: 0; 
+    padding: 0 6px;
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+}   
+.mGrid .pgr a { 
+    color: #666; 
+    text-decoration: none;
+}
+.mGrid .pgr a:hover { 
+    color: #000; 
+    text-decoration: none; 
+}
